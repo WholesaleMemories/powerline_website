@@ -1,12 +1,11 @@
 
 *{
-    color:bisque;
     font-family: sans-serif;
-    background-color: darkslategray;
+    background-color: rgb(158, 137, 229);
 }
 
 .impact {
-    font-family: rockwell;
+    font-family:'Courier New', Courier, monospace;
 }
 
 h1 {
@@ -15,4 +14,18 @@ h1 {
 
 h2 {
     color:rgb(177, 234, 120);
+}
+
+.main-heading,
+.sub-heading {
+    color:rgb(133, 249, 18);
+    text-shadow: -2px 1px 20px #18f5957c;
+}
+
+.main-heading {
+    font-family: rockwell;
+}
+
+.body-text {
+    color:rgb(0, 0, 0)
 }
