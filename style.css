@@ -1,11 +1,10 @@
-
+@font-face {
+    font-family: Alien222;
+    src: url(./alien-league-font/AlienLeagueCondensed-B8OG.otf);
+}
 *{
     font-family: sans-serif;
-    background-color: rgb(158, 137, 229);
-}
-
-.impact {
-    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(153, 124, 247);
 }
 
 h1 {
@@ -15,11 +14,21 @@ h1 {
 h2 {
     color:rgb(177, 234, 120);
 }
-
+.header {
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 .main-heading,
 .sub-heading {
-    color:rgb(133, 249, 18);
-    text-shadow: -2px 1px 20px #18f5957c;
+    color:rgb(208, 255, 0);
+    text-shadow: -2px 1px 20px #ff54e296;
+    text-align: center;
+    font-family: Alien222;
+    font-size: 3.2vw;
+    }
 }
 
 .main-heading {
@@ -28,4 +37,9 @@ h2 {
 
 .body-text {
     color:rgb(0, 0, 0)
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
 }
