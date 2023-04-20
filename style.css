@@ -2,18 +2,20 @@
     font-family: Alien222;
     src: url(./alien-league-font/AlienLeagueCondensed-B8OG.otf);
 }
-*{
-    font-family: 'Dongle', sans-serif;
+
+* {
+    font-family: "Dongle", sans-serif;
     background-color: rgb(153, 124, 247);
 }
 
 h1 {
-    color:rgb(177, 234, 120);
+    color: rgb(177, 234, 120);
 }
 
 h2 {
-    color:rgb(177, 234, 120);
+    color: rgb(177, 234, 120);
 }
+
 .header {
     align-items: center;
     display: block;
@@ -21,21 +23,22 @@ h2 {
     margin-right: auto;
     width: 50%;
 }
+
 .main-heading,
 .sub-heading {
-    color:rgb(208, 255, 0);
+    color: rgb(208, 255, 0);
     text-shadow: -2px 1px 20px #ff54e296;
     text-align: center;
     font-family: Alien222;
     font-size: 3.2vw;
-    }
+}
 
 .main-heading {
     font-family: rockwell;
 }
 
 .body-text {
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     font-size: 1.5vw;
 }
 
