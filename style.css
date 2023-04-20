@@ -3,7 +3,7 @@
     src: url(./alien-league-font/AlienLeagueCondensed-B8OG.otf);
 }
 *{
-    font-family: sans-serif;
+    font-family: 'Dongle', sans-serif;
     background-color: rgb(153, 124, 247);
 }
 
@@ -29,14 +29,14 @@ h2 {
     font-family: Alien222;
     font-size: 3.2vw;
     }
-}
 
 .main-heading {
     font-family: rockwell;
 }
 
 .body-text {
-    color:rgb(0, 0, 0)
+    color:rgb(0, 0, 0);
+    font-size: 1.5vw;
 }
 
 .responsive {
