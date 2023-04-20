@@ -49,6 +49,7 @@ h2 {
 
 .navbar {
     background-color: black;
+    border-color: red;
     display: flex;
     color: rgb(208, 255, 0);
 }
