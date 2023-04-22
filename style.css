@@ -3,7 +3,7 @@
     src: url(./alien-league-font/AlienLeagueCondensed-B8OG.otf);
 }
 
-* {
+body {
     font-family: "Dongle", sans-serif;
     background-color: rgb(153, 124, 247);
 }
@@ -54,7 +54,7 @@ h2 {
 }
 
 nav ul {
-    flex: .3333;
+    flex: 0.3333;
     background-color: inherit;
     color: inherit;
 }
