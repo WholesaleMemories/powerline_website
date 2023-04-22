@@ -52,3 +52,17 @@ h2 {
     display: flex;
     color: rgb(208, 255, 0);
 }
+
+nav ul {
+    flex: .3333;
+    background-color: inherit;
+    color: inherit;
+}
+
+.leftside {
+    margin-right: auto;
+}
+
+.rightside {
+    margin-left: auto;
+}
