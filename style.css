@@ -50,19 +50,30 @@ h2 {
 .navbar {
     background-color: black;
     display: flex;
+    justify-content: space-between;
     color: rgb(208, 255, 0);
 }
 
 nav ul {
-    flex: 0.3333;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
     background-color: inherit;
     color: inherit;
+    list-style: none;
+    padding-left: 0;
 }
 
+nav li {
+    margin: 0 .3vw;
+}
 .leftside {
     margin-right: auto;
+    margin-left: 1vw;
 }
 
 .rightside {
     margin-left: auto;
+    margin-right: 1vw;
 }
